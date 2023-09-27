@@ -1,7 +1,106 @@
+:root{
+    --primary-text-color: #ffffff;
+    --second-text-color: #c7c7c7;
+    --reviews-color: #d8d8d8;
+    --order-color: #959595;
+    --order-confirm-color: #8d8d8d;
+    --background-nav: #012D63;
+    --button-color: #8E32C6;
+}
+
 .container{
     width: 1110px;
     margin-left: 165px;
     margin-right: 165px;
     margin-top: 105px;
     margin-bottom: 105px;
+}
+
+.header{
+    background-color: var(--background-nav);
+    height: 93px;
+}
+
+.logo{
+    margin-left: 168px;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+}
+
+.list-one{
+    margin-left: 420px;
+    margin-right: 319px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.language{
+    display: flex;
+    
+}
+
+.items-nav{
+    color: var(--second-text-color);
+}
+
+.site-link{
+    color: var(--order-color);
+}
+
+.site-link:focus{
+    color: var(--primary-text-color);
+}
+
+.section-one{
+    width: 1440px;
+    height: 858px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    background-image: url(/img/shoes.jpg);
+}
+
+.cer{
+  padding-top: 91px;
+}
+
+.pt-serif{
+    color: #FFF;
+    font-family: 'PT Serif' sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div-section-one{
+    color: var(--primary-text-color);
+}
+
+.button-one{
+    background-color: var(--button-color);
+    margin-top: 41px;
+    padding-left: 61px;
+    padding-right: 61px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.p-button{
+    color: #FFF;
+}
+
+.section-two{
+    background-image: url(/img/bcrf.jpg);
+    width: 1440px;
+    height: 858px;
+    flex-shrink: 0;
+    margin: 0 auto; 
+}
+
+.list-two{
+    display: flex;
 }
