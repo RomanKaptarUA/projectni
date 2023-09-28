@@ -80,7 +80,7 @@
 }
 
 .hero{
-    background-image: url(/img/shoes.jpg);
+    background-image: url(../img/shoes.jpg);
     background-size: cover;
     padding-top: 94px;
     padding-bottom: 183px;
