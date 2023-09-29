@@ -81,7 +81,7 @@
 
 .hero{
     background-image: url(../img/shoes.jpg);
-    background-size: cover;
+    background-size: cover;background-repeat: no-repeat;
     padding-top: 94px;
     padding-bottom: 183px;
 }
@@ -130,9 +130,7 @@
     line-height: normal;
 }
 
-.primary{
-;
-}
+
 
 .div-section-one{
     color: var(--primary-text-color);
@@ -162,8 +160,10 @@ line-height: normal;
 }
 
 .section-two{
+    background-position: cover;
     background-image: url(/img/bcrf.jpg);
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
+    background-repeat: no-repeat;
 }
 
 .list-two{
@@ -202,4 +202,5 @@ line-height: normal;
 
 .section-three{
     background: url(<path-to-image>), lightgray 0px -9px / 100% 255.769% no-repeat;
+    background-repeat: no-repeat;
 }
