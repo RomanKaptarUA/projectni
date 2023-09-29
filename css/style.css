@@ -164,6 +164,8 @@ line-height: normal;
     background-image: url(/img/bcrf.jpg);
     /* margin: 0 auto;  */
     background-repeat: no-repeat;
+    padding-top: 105px;
+    padding-bottom: 105px;
 }
 
 .list-two{
@@ -181,13 +183,15 @@ line-height: normal;
 
 .benefits-first::after{
     content: '';
+    height: 240px;
+    width: 240px;
     display: block;
-    background-image: url(/img/stars.png);
+    background-image: url(./img/stars.png);
     background-repeat: no-repeat;
 }
 
 .benefits-first:nth-child(2):after{
-    background-image: url(/img/truck.png);
+    background-image: url(./img/truck.png);
 }
 
 .benefits-text{
