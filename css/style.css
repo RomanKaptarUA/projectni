@@ -160,10 +160,9 @@ line-height: normal;
 }
 
 .section-two{
-    background-position: cover;
     background-image: url(../img/bcrf.jpg);
-    /* margin: 0 auto;  */
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 105px;
     padding-bottom: 105px;
 }
@@ -172,14 +171,20 @@ line-height: normal;
     display: flex;
     align-content: center;
     box-sizing: border-box;
-    height: 396px;
     width: 1110px;
-    border: 5px solid violet;
+    border: 5px solid var(--button-color);
+    gap: 145px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
 .benefits-first{
     height: 396px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+
 
 .benefits-first::after{
     content: '';
@@ -190,7 +195,17 @@ line-height: normal;
     background-repeat: no-repeat;
 }
 
-.benefits-first:nth-child(2):after{
+.benefits-second::before{
+    content: '';
+    height: 240px;
+    width: 240px;
+    display: block;
+    background-image: url(../img/baloncik.png);
+    background-repeat: no-repeat;
+}
+
+
+.benefits-first:nth-child(3):after{
     background-image: url(../img/truck.png);
 }
 
@@ -205,6 +220,63 @@ line-height: normal;
 }
 
 .section-three{
-    background: url(<path-to-image>), lightgray 0px -9px / 100% 255.769% no-repeat;
+    background-image: url(../img/bcrfa.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+.reviews{
+height: 65px;
+color: #FFF;
+font-family: 'Playfair Display';
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+padding-top: 24px;
+}
+
+.list-three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 93px;
+}
+
+.item-reviews{
+    margin-top: 24px;
+    margin-bottom: 114px;
+    width: 255px;
+    height: 292px;
+    content: '';
+}
+
+.item-reviews:nth-child(1){
+    border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+
+.item-reviews:nth-child(2){
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+
+
+.item-reviews:nth-child(3){
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
+
+.p-reviews{
+    color: #FFF;
+font-family: 'Roboto';
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
