@@ -169,21 +169,27 @@ line-height: normal;
 
 .list-two{
     display: flex;
+    justify-content: space-evenly;
     align-content: center;
     box-sizing: border-box;
     width: 1110px;
     border: 5px solid var(--button-color);
-    gap: 145px;
     margin: 0 auto;
     padding: 50px;
 }
 
 .benefits-first{
-    height: 396px;
     display: flex;
     flex-wrap: wrap;
-    
 }
+
+.benefits-second{
+    padding-left: 95px;
+    padding-right: 95px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
 
 
 .benefits-first::after{
@@ -273,6 +279,7 @@ box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
 
 .p-reviews{
+    margin-top: 49px;
     color: #FFF;
 font-family: 'Roboto';
 font-size: 24px;
