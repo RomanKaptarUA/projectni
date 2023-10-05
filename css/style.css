@@ -231,10 +231,10 @@ line-height: normal;
 }
 
 .section-three{
-    background-image: url(../img/bcrfa.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../img/flower.png), url(../img/bcrfa.jpg);
+    background-size: 340px, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
 }
 
 .flower{
