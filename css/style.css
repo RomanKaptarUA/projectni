@@ -297,96 +297,46 @@ padding-left: 24px;
     margin-bottom: 37px;
 }
 
-.footer{
-    padding-top: 45px;    padding-bottom: 50px;
-    background-color: #021635;
-}
-
-.div-footer-one{
-    display: flex;   
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.div-footer-two{
-    display: flex;   
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.div-footer-three{
-    display: flex;   
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.p-footer{
-    color: #FFF;font-family: 'Roboto';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-right: 300px;
-}
-
-.p-footer:nth-child(1){
-    padding-right: ;
-}
-
-
-.footer-link{
-    color: #FFF;font-family: 'Roboto';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration-line: underline;
-}
-
-
-.footer-cont{
-    margin-top: 45px;
-    margin-left: 165px;
-    margin-right: 164px;
-}
-
-.footer-conta{
-    margin-bottom: 50px;
-}
-
-.line{
-
-    height: 1px;
-    background-color: var(--reviews-color);
-    margin-top: 20px;
-    margin-bottom: 24px;
-}
-
-.end{
-    color: #FFF;
-font-family: 'Roboto';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.footer-cbr{
-    color: #FFF;
-font-family: 'PT Serif';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.ul-footer-one{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.ul-footer-two{
-    display: flex;
-    flex-wrap: wrap;
+.footer{  
+    background-image: url(../img/bcrfa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top: 45px;  
+    padding-bottom: 45px;  
+}  
+.footer-wrap{  
+    display: flex;  
+    justify-content: space-between;  
+    padding-bottom: 20px;  
+    border-bottom: 1px solid var(--primary-text-color);  
+    margin-bottom: 20px;  
+}  
+.footer-right{  
+    text-align: right;  
+    text-decoration: solid;  
+}  
+.footer-text{  
+    color: var(--primary-text-color);  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+}  
+.footer-email{  
+    color: var(--primary-text-color);  
+font-size: 24px;  
+text-decoration-line: underline;  
+margin-bottom: 10px;  
+}  
+  
+.footer-wrapper{  
+    display: flex;  
+    justify-content: space-between;  
+}  
+.footer-link{  
+    margin-bottom: 10px;  
+}  
+.footer-title{  
+    color: var(--primary-text-color);  
+    font-size: 24px;  
+    font-family: 'PT Serif', serif;  
+    text-align: right;  
 }
