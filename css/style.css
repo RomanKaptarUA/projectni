@@ -110,7 +110,6 @@ body {
 } 
  
 .button-one{ 
-    background-color: var(--button-color); 
     margin-top: 41px; 
     padding-left: 61px; 
     padding-right: 61px; 
@@ -119,6 +118,14 @@ body {
     border: none; 
     border-radius: 10px; 
 } 
+
+.button-link{
+    background-color: var(--button-color); 
+}
+
+.button-link:hover{
+    background-color: var(--background-nav);
+}
  
 .p-button{ 
     color: #FFF; 
